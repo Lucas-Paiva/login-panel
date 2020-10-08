@@ -1,0 +1,104 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+header{
+    color: azure;
+    
+}
+
+body{
+    background-image: linear-gradient(90deg, #ff3d3d, #d810c7);
+    text-align: center;
+}
+
+.loginInput{
+    text-align: center;
+    border-radius: 25px;
+    border: none;
+    background-color: rgb(222, 222, 241);
+    width: 80%;
+    margin: 10px;
+    padding: 9px;
+    transition: all .2s ease-in-out;
+}
+.loginInput:hover{
+    transform: scale(1.1); 
+}
+
+#panel{
+    align-content: center;
+    margin:auto;
+	max-width:440px;
+	min-height:476px;
+	position:relative;
+	box-shadow:12px 15px 10px rgba(51, 3, 90, 0.24),0 17px 50px 0 rgba(0,0,0,.19);
+    opacity: 0.95;
+    background-color: rgb(253, 252, 252);
+    border-radius: 20px;
+    padding: 20px;
+}
+
+#inputZone{
+    align-content: center;
+    position: relative;
+    background-color: rgb(230, 238, 238);
+    margin: auto;
+    max-width: 400px;
+    max-height: 430px;
+    margin-top: 10%;
+    border-radius: 20px;
+    padding: 20%;
+}
+
+#redef{
+    font-size: 12px;
+}
+
+#submitButton{
+    background-image: linear-gradient(120deg, #ff3d3d, #d810c7);
+    color: white;
+    border-radius: 25px;
+    border: none;
+    padding: 10px;
+    width: 30%;
+    box-shadow:12px 10px 10px rgba(51, 3, 90, 0.24),0 17px 50px 0 rgba(0,0,0,.19);
+    transition: all .2s ease-in-out;
+    outline: none; 
+}
+#submitButton:hover{
+    transform: scale(1.1); 
+}
+
+.divider{
+    width:30%;
+    height:auto;
+    display:inline-block;
+}
+
+.op{
+    border: none;
+    background-color: rgb(230, 238, 238);
+    border-radius: 25px;
+    padding: 8px;
+    width: 30%;
+    box-shadow:12px 15px 10px rgba(51, 3, 90, 0.24),0 17px 50px 0 rgba(0,0,0,.19);
+    transition: all .2s ease-in-out; 
+    outline: none;
+}
+
+.op:hover{
+    transform: scale(1.1); 
+}
+
+footer{
+    font-size: 11px;
+    color: white;
+    margin: 10px;
+}
+#gitIcon{
+    width: 20px;
+    height: 20px;
+    filter: invert(1);
+}
